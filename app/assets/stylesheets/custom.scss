@@ -1,0 +1,22 @@
+@import "materialize";
+
+body {
+	background-color: #fafafa; 
+    display: flex;
+    min-height: 10vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+  .brand-logo{
+  	width: 70px;
+  	hight: 70px;
+  }
+
+  .home_image{ 	
+  	max-width: 350px;
+  	hight: 50px;
+  }

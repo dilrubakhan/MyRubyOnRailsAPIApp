@@ -1,2 +1,36 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+
+
+<ol class="collection with-header">
+	<div class="collection-header center"><h4>Requirement Specifications
+		</h4><%= image_tag ("api_interface.jpg"), class: "home_image"%>
+	</div>
+
+	<li class="collection-item">
+		<div> Implement a simple web-page which allows a user to register & login, the user should have (at a minimum), username, forename, surname and email as well as any attributes necessary for authentication.
+		<a href="#!" class="secondary-content"><i class="material-icons">send</i></a>
+		</div>
+	</li>
+
+
+    <li class="collection-item">
+    	<div> The user should have a profile_image attribute. ○ This should not be set at registration, but set once the user has signed in.
+		<a href="#!" class="secondary-content"><i class="material-icons">send</i></a>
+		</div>
+	</li>
+
+    <li class="collection-item">
+    	<div> User further migration(s) to add extra attributes to the user: ○ Date of Birth ○ Gender ○ Phone Number ○ Any other attributes you feel necessary. <a href="#!" class="secondary-content"><i class="material-icons">send</i></a>
+    	</div>
+    </li>
+
+    <li class="collection-item">
+    	<div>On signing in, the user should be allowed to update their profile information. ○ If the user doesn't have a profile_image, they must set it at this point.<a href="#!" class="secondary-content"><i class="material-icons">send</i></a>
+    	</div>
+    </li>
+
+    <li class="collection-item">
+    	<div> In addition to this, implement a simple API endpoint, which given a user_id will return information about the appropriate user. ○ The information to be returned is: forename, surname, gender as well as the time that that user was created at. ○ It would be nice if the API required a user to be authenticated, but this is not mandatory. ○ This endpoint should return the user information in JSON.
+		<a href="#!" class="secondary-content"><i class="material-icons">send</i></a>
+		</div>
+	</li>
+</ol>

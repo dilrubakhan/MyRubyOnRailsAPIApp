@@ -15,5 +15,11 @@ require("channels")
 //
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
-//= require turbolinks  
+
+//= require jquery
+//= require jquery_ujs
 //= require materialize-sprockets
+//= require bootstrap-sprockets
+//= require turbolinks
+//= require_tree .
+//= require jquery.infinitescroll

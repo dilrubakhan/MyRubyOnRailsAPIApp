@@ -10,6 +10,13 @@
       <div class="collection">
         <div class="card blue-grey darken-1">
           <div class="card-content white-text">
+
+            <br>
+            <div class="field">
+              <%= f.label :image %>
+              <%= f.file_field :image, id: :user_image %>
+            </div>
+            <br>
   
             <div class="field">
               <%= f.label :username %><br />
